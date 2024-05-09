@@ -24,3 +24,15 @@ def solution(common):
             break
     if is_geometric:
         return common[-1] * r
+    
+    
+# 다른 사람의 풀이
+
+# def solution(common):
+#     answer = 0
+#     a,b,c = common[:3]
+#     if (b-a) == (c-b):
+#         return common[-1]+(b-a)
+#     else:
+#         return common[-1] * (b//a)
+#     return answer
