@@ -6,3 +6,6 @@ def solution(k, m, score):
             return res
         res += min(score[i:i+m]) * m
     return res
+
+# 다른 사람 풀이
+# solution = lambda _, m, s: sum(sorted(s)[-m::-m]) * m
