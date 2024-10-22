@@ -1,4 +1,5 @@
 def solution(str1, str2):
+#     a = 1
     ans = ''
     for i in range(len(str1)):
         ans += str1[i]
